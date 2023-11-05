@@ -1,0 +1,44 @@
+
+<html>
+<head>
+    <script src="UTS_KonversiPecahanRupiahLastcode.js"></script>
+    <link rel="stylesheet" type="text/css" href="UTS_KonversiPecahanRupiahLastcode.css">
+</head>
+<body>
+    <h1>Aplikasi Membaca Nilai Uang</h1>
+    <div id="container">
+        <p>Masukkan nilai uang (rupiah) dalam kelipatan 25:</p>
+        <input id="input" type="number" min="25" step="25">
+        <button id="button" onclick="convert()">Konversi</button>
+        <button id="reset" onclick="reset()">Reset</button>
+        <table id="table">
+            <tr>
+                <th>Pecahan</th>
+                <th>Jumlah</th>
+            </tr>
+            <tr>
+                <td>Rp1000</td>
+                <td id="rp1000">0</td>
+            </tr>
+            <tr>
+                <td>Rp500</td>
+                <td id="rp500">0</td>
+            </tr>
+            <tr>
+                <td>Rp100</td>
+                <td id="rp100">0</td>
+            </tr>
+            <tr>
+                <td>Rp50</td>
+                <td id="rp50">0</td>
+            </tr>
+            <tr>
+                <td>Rp25</td>
+                <td id="rp25">0</td>
+            </tr>
+        </table>
+    </div>
+
+</body>
+
+</html>
